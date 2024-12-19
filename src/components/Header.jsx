@@ -3,8 +3,8 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
-// import MenuSvg from "../assets/svg/menuSvg";
-import { HamburgerMenu } from "./design/header";
+import MenuSvg from "../assets/svg/MenuSvg";
+import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 
 const Header = () => {
@@ -73,7 +73,7 @@ const Header = () => {
           px="px-3"
           onClick={toggleNavigation}
         >
-          {/* <MenuSvg openNavigation={openNavigation} /> */}
+          <MenuSvg openNavigation={openNavigation} />
         </Button>
       </div>
     </div>
